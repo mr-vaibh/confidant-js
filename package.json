@@ -1,0 +1,31 @@
+{
+  "name": "confidant-js",
+  "version": "0.1.0",
+  "description": "Multi platform scalable environment variables manager",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vaibhav Shukla",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mr-vaibh/confidant-js.git"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.9.0",
+    "@types/node-forge": "^1.3.11",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "base64-js": "^1.5.1",
+    "crypto-js": "^4.2.0",
+    "node-forge": "^1.3.1"
+  }
+}
